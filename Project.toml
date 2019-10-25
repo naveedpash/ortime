@@ -1,0 +1,19 @@
+name = "ortime"
+uuid = "35c85b8c-3070-4463-8989-3d1876d1078f"
+authors = ["Naveed Aman Pasha <naveedpash@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
+Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
+LanguageServer = "2b0e0bc5-e4fd-59b4-8912-456d1b03d8d7"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+StaticLint = "b3cc710f-9c33-5bdb-a03d-a94903873e97"
+StatsKit = "2cb19f9e-ec4d-5c53-8573-a4542a68d3f0"
+SymbolServer = "cf896787-08d5-524d-9de7-132aaa0cb996"
