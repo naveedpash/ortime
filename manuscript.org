@@ -1,0 +1,64 @@
+* Interpretations
+- Friday is when patients move from daycare to main OR which
+may be a source of delay.
+- Segregate first cases from non-first cases
+
+* Results
+
+Mean/median of first case delay and off hour
+
+Pick top 3 surgeries in volume
+
+#+BEGIN_SRC python
+import plotly.express as px
+px.histogram(times, x="PREP").show()
+#+END_SRC
+
+Distribution of first case start time (ST1) (incision time - patient arrived time),
+    - subgroup analysis per surgery
+    - recommendations of possible valid start times
+        - "valid" means not unfair to disqualify the surgeon and not causing
+          monetary loss to the OR
+        - read about the preparations of that surgery
+            - make recommendations for standardization thereof
+            - make hypothetical BPMN diagram
+            - highlight opportunities for standardization of quality control
+
+Normalized bar chart of the different times as a percentage of first case start
+time
+
+Cases categorized as delays and non-delays if using current first cases
+definition and then using our definition (which includes time to incision)
+
+* Discussion
+Surgery is of value to the patient and everything else that we do is either for
+the patient's comfort and potentially puts at risk
+
+We can minimize activities other than the surgery itself by strict process
+control.
+
+Reliably repeatable process
+control flow diagram
+different colors for each department that's involved in each process
+
+
+- make arguments of which delay is more informative: ORINTAKE or TIME TO
+  INCISION as a measure of first case delay
+
+- recommendations of possible valid start times
+  - "valid" means not unfair to disqualify the surgeon and not causing
+    monetary loss to the OR
+  - read about the preparations of that surgery
+    - make recommendations for standardization thereof
+    - make hypothetical BPMN diagram
+    - highlight opportunities for standardization of quality control
+      - opportunities for automated data entry
+      - real-time dashboard
+
+
+Propose a data capturing tool to enable an institute to learn about common
+causes of first case delays
+
+#+BEGIN_SRC plantuml
+
+#+END_SRC
